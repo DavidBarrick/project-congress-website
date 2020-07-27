@@ -15,17 +15,7 @@ phases:
   post_build:
     commands:
       # copy the contents of /build to S3
-      - aws s3 cp --recursive ./build s3://$S3_BUCKET/ 
-      # set the cache-control headers for service-worker.js to prevent
-      # browser caching
-      #- >
-      #  aws s3 cp
-      #  --cache-control="max-age=0, no-cache, no-store, must-revalidate" 
-      #  ./build/service-worker.js s3://$S3_BUCKET/
-      # set the cache-control headers for index.html to prevent
-      # browser caching
-      - >
-        aws s3 cp
+      - aws s3 cp
         --cache-control="max-age=0, no-cache, no-store, must-revalidate" 
         ./build/index.html s3://$S3_BUCKET/
       # invalidate the CloudFront cache for index.html and service-worker.js

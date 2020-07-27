@@ -28,8 +28,7 @@ function App() {
       <CSSReset />
       <div className="App">
         <Router>
-        <Header />
-
+          <Header />
           <Switch>
             <Route exact path="/" render={(props) => <Home {...props}/>} />
             <Route path="/privacy" render={(props) => <Privacy {...props}/>} />
