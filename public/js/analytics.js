@@ -71,5 +71,5 @@ function Analytics(id) {
 		})
 	}
 
-	this.constructor(key)
+	this.constructor(id)
 }
