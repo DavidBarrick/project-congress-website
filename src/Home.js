@@ -35,22 +35,22 @@ function Home() {
       <Flex justify="center">
         <Box w={['100%', null, '60%']}>
           <SimpleGrid columns={[1, null, 2]} spacing={["20px",null,"50px"]}>
-            <Stack p={10} bg="purple.50" spacing={6} borderRadius="0.25rem">
+            <Stack p={10} bg="purple.50" align="center" spacing={6} borderRadius="0.25rem">
               <Icon name="lock" />
               <Text fontSize="xl" fontWeight="bold">Privacy First</Text>
               <Text fontSize="md" fontWeight="noraml">We don't share or sell your information with any 3rd party</Text>
             </Stack>
-            <Stack p={10} bg="purple.50" spacing={6} borderRadius="0.25rem">
+            <Stack p={10} bg="purple.50" align="center" spacing={6} borderRadius="0.25rem">
               <Icon name="info" />
               <Text fontSize="xl" fontWeight="bold">Personalized</Text>
               <Text fontSize="md" fontWeight="noraml">You'll only see relevant events in your feed based on your interests and location</Text>
             </Stack>
-            <Stack p={10} bg="purple.50" spacing={6} borderRadius="0.25rem">
+            <Stack p={10} bg="purple.50" align="center" spacing={6} borderRadius="0.25rem">
               <Icon name="view-off" />
               <Text fontSize="xl" fontWeight="bold">No Ads</Text>
               <Text fontSize="md" fontWeight="noraml">Free. Forever.</Text>
             </Stack>
-            <Stack p={10} bg="purple.50" spacing={6} borderRadius="0.25rem">
+            <Stack p={10} bg="purple.50" align="center" spacing={6} borderRadius="0.25rem">
               <Icon name="not-allowed" />
               <Text fontSize="xl" fontWeight="bold">No Trackers</Text>
               <Text fontSize="md" fontWeight="noraml">We don't use invasive trackers to monitor what you follow</Text>

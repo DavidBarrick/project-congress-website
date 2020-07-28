@@ -37,7 +37,7 @@ function App() {
           </Switch>
 
           <footer>
-            <Box p={3} bg="gray.50" h={"70px"} style={{textAlign:"center"}}>
+            <Box p={3} bg="gray.50" h={"70px"}>
               <Stack>
                 <Stack spacing={10} isInline justify="center">
                   <Text fontWeight="medium" fontSize="sm"><Link to="/tos">Terms Of Service</Link></Text>
