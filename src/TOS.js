@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
-import { BrowserRouter as Router, Route, Switch, Redirect, Link } from 'react-router-dom';
-import { ThemeProvider, CSSReset, theme, Text, Stack, Box, Flex, List, ListItem } from "@chakra-ui/core";
+import { Text, Stack, Box, Flex, List, ListItem } from "@chakra-ui/core";
 
 function TOS() {
   return (

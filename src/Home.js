@@ -1,36 +1,43 @@
 import React from 'react';
 import './App.css';
-import { Text, Stack, Box, Flex, Button, Link, SimpleGrid, Icon } from "@chakra-ui/core";
+import { Text, Stack, Box, Flex, Button, Link, SimpleGrid, Icon, Image } from "@chakra-ui/core";
+import logo from './1.jpg';
 
 function Home() {
   return (
-    <Stack p={10} mb={10} spacing={[20, null, 20]}>
+    <Stack pt={5} mb={10} spacing={[20, null, 20]}>
       <Flex justify="center">
-        <Box w={['100%', null, '50%']}>
-          <Stack alignItems="center" spacing={[5, 10]}>
-            <Text fontSize="4xl" fontWeight="bold">Congress, relevant to you.</Text>
-            <Text fontSize="lg" fontWeight="normal">Project Congress is a free tool to help you stay informed on what's happening in Congress based on your interests and location</Text>
-            {/*<Link w={['100%', null, '50%']} style={{textDecoration:"none"}} href="https://app.projectcongress.com/signup/profile">
-              <Button 
-                bg="purple.500"
+        <SimpleGrid w={['100%',null,'80%']} spacing="10px" columns={[1, null, 2]}>
+          <Flex p={10} alignItems="center">
+            <Stack alignItems="center" spacing={[5, 10]}>
+              <Text fontSize="4xl" fontWeight="bold">Congress, relevant to you.</Text>
+              <Text fontSize="lg" fontWeight="normal">Project Congress is a free tool to help you stay informed on what's happening in Congress based on your interests and location</Text>
+              {/*<Link w={['100%', null, '50%']} style={{textDecoration:"none"}} href="https://app.projectcongress.com/signup/profile">
+                <Button 
+                  bg="purple.500"
+                  height="60px"
+                  color="white"
+                  fontWeight="bold"
+                  w="100%"
+                  fontSize="xl">Get Started</Button>
+              </Link>*/}
+              <Flex 
+                align="center"
+                justify="center"
+                borderColor="purple.500"
+                borderWidth="1px"
                 height="60px"
-                color="white"
-                fontWeight="bold"
-                w="100%"
-                fontSize="xl">Get Started</Button>
-            </Link>*/}
-            <Flex 
-              align="center"
-              justify="center"
-              borderColor="purple.500"
-              borderWidth="1px"
-              height="60px"
-              w={['100%', null, '50%']}
-              borderRadius="0.25rem">
-              <Text fontSize="xl" color="purple.500" fontWeight="bold">Launching Soon 🇺🇸</Text>
-            </Flex>
-          </Stack>
-        </Box>
+                w={['100%', null, '50%']}
+                borderRadius="0.25rem">
+                <Text fontSize="xl" color="purple.500" fontWeight="bold">Launching Soon 🇺🇸</Text>
+              </Flex>
+            </Stack>
+          </Flex>
+          <Flex justify="center">
+            <Image h="600px" src={logo}/>
+          </Flex>
+        </SimpleGrid>
+        
       </Flex>
       <Flex justify="center">
         <Box w={['100%', null, '60%']}>

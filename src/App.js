@@ -43,7 +43,7 @@ function App() {
                   <Text fontWeight="medium" fontSize="sm"><Link to="/tos">Terms Of Service</Link></Text>
                   <Text fontWeight="medium" fontSize="sm"><Link to="/privacy">Privacy Policy</Link></Text>
                 </Stack>
-                <Text color="gray.500" fontWeight="normal" fontSize="sm">© 2020 <a href="https://barrickapps.com?ref=pc" target="_blank">Barrick Apps LLC</a></Text>
+                <Text color="gray.500" fontWeight="normal" fontSize="sm">© 2020 <a href="https://barrickapps.com?ref=pc" rel="noopener noreferrer" target="_blank">Barrick Apps LLC</a></Text>
               </Stack>
             </Box>
           </footer>
