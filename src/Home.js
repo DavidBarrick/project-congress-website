@@ -10,8 +10,8 @@ function Home() {
         <SimpleGrid w={['100%',null,'80%']} spacing="10px" columns={[1, null, 2]}>
           <Flex p={10} alignItems="center">
             <Stack alignItems="center" spacing={[5, 10]}>
-              <Text fontSize="4xl" fontWeight="bold">Congress, relevant to you.</Text>
-              <Text fontSize="lg" fontWeight="normal">Project Congress is a free tool to help you stay informed on what's happening in Congress based on your interests and location</Text>
+              <Text fontSize="4xl" fontWeight="bold">Congress,<br />relevant to you.</Text>
+              <Text fontSize="lg" fontWeight="normal">Project Congress is a free tool to help you stay informed with what's happening in Congress based on your interests and location</Text>
               {/*<Link w={['100%', null, '50%']} style={{textDecoration:"none"}} href="https://app.projectcongress.com/signup/profile">
                 <Button 
                   bg="purple.500"
