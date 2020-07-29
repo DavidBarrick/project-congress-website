@@ -45,12 +45,12 @@ function Home() {
             <Stack p={10} bg="purple.50" align="center" spacing={6} borderRadius="0.25rem">
               <Icon name="lock" />
               <Text fontSize="xl" fontWeight="bold">Privacy First</Text>
-              <Text fontSize="md" fontWeight="noraml">We don't share or sell your information with any 3rd party</Text>
+              <Text fontSize="md" fontWeight="noraml">We don't share or sell your information with any 3rd party.</Text>
             </Stack>
             <Stack p={10} bg="purple.50" align="center" spacing={6} borderRadius="0.25rem">
               <Icon name="info" />
               <Text fontSize="xl" fontWeight="bold">Personalized</Text>
-              <Text fontSize="md" fontWeight="noraml">You'll only see relevant events in your feed based on your interests and location</Text>
+              <Text fontSize="md" fontWeight="noraml">You'll only see relevant events in your feed based on your interests and location.</Text>
             </Stack>
             <Stack p={10} bg="purple.50" align="center" spacing={6} borderRadius="0.25rem">
               <Icon name="view-off" />
@@ -60,7 +60,7 @@ function Home() {
             <Stack p={10} bg="purple.50" align="center" spacing={6} borderRadius="0.25rem">
               <Icon name="not-allowed" />
               <Text fontSize="xl" fontWeight="bold">No Trackers</Text>
-              <Text fontSize="md" fontWeight="noraml">We don't use invasive trackers to monitor what you follow</Text>
+              <Text fontSize="md" fontWeight="noraml">We don't use trackers or cookies to follow you across the web. <a style={{textDecoration:"underline"}} href="https://github.com/DavidBarrick/project-congress-website" rel="noopener noreferrer" target="_blank">This site</a>, and our <a style={{textDecoration:"underline"}} href="https://github.com/DavidBarrick/project-congress-analytics" rel="noopener noreferrer" target="_blank">anonymous analytics</a> are open source.</Text>
             </Stack>
           </SimpleGrid>
         </Box>
